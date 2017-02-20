@@ -5,3 +5,4 @@
 	- fix human_byte_size
 	- fix Condition::file_test
 	- pod documentation
+  - add travis integration
