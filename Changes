@@ -1,0 +1,7 @@
+{{$NEXT}}
+	- fix basename
+	- fix dirname
+	- fix file_size
+	- fix human_byte_size
+	- fix Condition::file_test
+	- pod documentation
