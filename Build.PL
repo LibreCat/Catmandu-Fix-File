@@ -18,7 +18,7 @@ my %module_build_args = (
     "Nicolas Franck, C<< <nicolas.franck at ugent.be> >>"
   ],
   "dist_name" => "Catmandu-Fix-File",
-  "dist_version" => "0.01",
+  "dist_version" => "0.011",
   "license" => "perl",
   "module_name" => "Catmandu::Fix::File",
   "recursive_test_files" => 1,
