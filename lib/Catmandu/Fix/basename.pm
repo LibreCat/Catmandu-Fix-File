@@ -20,7 +20,11 @@ Catmandu::Fix::basename - get file basename
 
 =head1 SYNOPSIS
 
-basename('/path/to/file.jpg')
+add_field('path','/home/njfranck')
+
+#'path' is now 'njfranck'
+
+basename('path')
 
 =head1 AUTHOR
 

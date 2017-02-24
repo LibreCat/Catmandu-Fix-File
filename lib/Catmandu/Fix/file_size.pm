@@ -17,7 +17,11 @@ Catmandu::Fix::file_size - get file size
 
 =head1 SYNOPSIS
 
-file_size('/path/to/file.jpg')
+add_field('path','/home/njfranck/test.txt')
+
+#'path' is now the file size of file /home/njfranck/test.txt
+
+file_size('path')
 
 =head1 AUTHOR
 

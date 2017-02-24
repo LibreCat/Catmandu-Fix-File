@@ -20,7 +20,11 @@ Catmandu::Fix::dirname - get file directory
 
 =head1 SYNOPSIS
 
-dirname('/path/to/file.jpg')
+add_field('path','/home/njfranck')
+
+#'path' is now '/home'
+
+dirname('path')
 
 =head1 AUTHOR
 

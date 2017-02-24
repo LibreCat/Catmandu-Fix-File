@@ -20,9 +20,11 @@ Catmandu::Fix::human_byte_size - convert from size in bytes to human readable fo
 =head1 SYNOPSIS
 
 #size in bytes
+
 add_field('size',1024)
 
 #size converted to '1KB'
+
 human_byte_size('size')
 
 =head1 AUTHOR
