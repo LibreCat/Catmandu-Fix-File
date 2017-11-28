@@ -1,4 +1,5 @@
 {{$NEXT}}
+  - add fix file_stat
 
 0.011  2017-02-24 14:18:37 CET
   - fix write documentation

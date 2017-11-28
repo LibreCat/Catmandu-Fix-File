@@ -44,5 +44,28 @@ sub emit_value {
 EOF
 
 }
+=head1 NAME
+
+Catmandu::Fix::file_stat - get file status information
+
+=head1 SYNOPSIS
+
+add_field('path','/home/njfranck/test.txt')
+
+#'path' is now a hash containing keys like mode, uid, gid, size, atime ..
+
+file_stat('path')
+
+=head1 AUTHOR
+
+Nicolas Franck, C<< <nicolas.franck at ugent.be> >>
+
+=head1 SEE ALSO
+
+L<Catmandu::Fix>
+
+L<stat|http://perldoc.perl.org/functions/stat.html>
+
+=cut
 
 1;
